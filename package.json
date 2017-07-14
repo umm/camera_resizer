@@ -1,0 +1,36 @@
+{
+  "name": "@kidsstar/camera-resizer",
+  "version": "1.0.0",
+  "description": "Camera resizer calculate from canvas",
+  "homepage": "https://github.com/kidsstar/camera-resizer",
+  "bugs": {
+    "url": "https://github.com/kidsstar/camera-resizer/issues"
+  },
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js",
+    "build:test": "tar -tf $(npm pack -s) && $(npm bin)/rimraf $_"
+  },
+  "author": {
+    "name": "Tetsuya Mori",
+    "email": "tetsuya.mori@kidsstar.co.jp",
+    "url": "https://www.kidsstar.co.jp/"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kidsstar/camera-resizer"
+  },
+  "files": [
+    "Assets",
+    "scripts"
+  ],
+  "dependencies": {
+    "@kidsstar/mono-behaviour-accessor": "^1.0.1",
+    "@kidsstar/uni-rx": "^5.5.3",
+    "mkdirp": "^0.5.1",
+    "ncp": "^2.0.0",
+    "pascal-case": "^2.0.1",
+    "rimraf": "^2.6.1"
+  },
+  "devDependencies": {}
+}
