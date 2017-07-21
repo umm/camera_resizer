@@ -1,5 +1,5 @@
 {
-  "name": "@umm-projects/camera_resizer",
+  "name": "@umm/camera_resizer",
   "version": "1.0.0",
   "description": "Camera resizer calculate from canvas",
   "homepage": "https://github.com/umm-projects/camera_resizer",
@@ -26,8 +26,8 @@
     "scripts"
   ],
   "dependencies": {
-    "@umm-projects/monobehaviour-accessor": "^1.0.1",
-    "@umm-projects/unirx": "^5.5.3",
+    "@umm/monobehaviour-accessor": "^1.0.1",
+    "@umm/unirx": "^5.5.3",
     "mkdirp": "^0.5.1",
     "ncp": "^2.0.0",
     "pascal-case": "^2.0.1",
