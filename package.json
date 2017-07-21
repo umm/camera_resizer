@@ -27,7 +27,7 @@
   ],
   "dependencies": {
     "@umm/monobehaviour-accessor": "^1.0.1",
-    "@umm/unirx": "^5.5.3",
+    "@umm/unirx": "^5.5.1",
     "mkdirp": "^0.5.1",
     "ncp": "^2.0.0",
     "pascal-case": "^2.0.1",
