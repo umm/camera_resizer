@@ -26,8 +26,8 @@
     "scripts"
   ],
   "dependencies": {
-    "@umm/monobehaviour_accessor": "^1.0.3",
-    "@umm/unirx": "^5.5.1",
+    "@umm/monobehaviour_accessor": "^1.0.6",
+    "@umm/unirx": "^5.5.4",
     "glob": "^7.1.2",
     "mkdirp": "^0.5.1",
     "ncp": "^2.0.0",
