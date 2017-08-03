@@ -1,7 +1,7 @@
 .npmignore
 Modules/
 Modules.meta
-Tests/
-Tests.meta
 Plugins/
 Plugins.meta
+Tests/
+Tests.meta
