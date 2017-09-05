@@ -9,7 +9,7 @@ Orthographic な Camera のサイズを Canvas のサイズから算出して設
 # Install
 
 ```shell
-$ npm install @umm/camera_resizer
+$ npm install github:umm-projects/camera_resizer.git
 ```
 
 # Usage
