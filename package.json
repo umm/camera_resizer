@@ -26,8 +26,8 @@
     "scripts"
   ],
   "dependencies": {
-    "@umm/recttransform_accessor": "~1",
-    "@umm/unirx": "~5",
+    "@umm/recttransform_accessor": "github:umm-projects/recttransform_accessor.git",
+    "@umm/unirx": "github:umm-projects/unirx.git",
     "glob": "^7.1.2",
     "mkdirp": "^0.5.1",
     "ncp": "^2.0.0",
