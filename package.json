@@ -26,7 +26,7 @@
     "scripts"
   ],
   "dependencies": {
-    "@umm/recttransform_accessor": "github:umm-projects/recttransform_accessor#semver:^1.0.3",
+    "@umm/recttransform_accessor": "github:umm-projects/recttransform_accessor#semver:^1.0.4",
     "@umm/unirx": "github:umm-projects/unirx#semver:^5.5.4",
     "glob": "^7.1.2",
     "mkdirp": "^0.5.1",
