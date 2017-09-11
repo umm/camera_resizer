@@ -1,6 +1,6 @@
 {
   "name": "@umm/camera_resizer",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Camera resizer calculate from canvas",
   "homepage": "https://github.com/umm-projects/camera_resizer",
   "bugs": {
