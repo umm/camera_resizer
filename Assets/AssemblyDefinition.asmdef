@@ -1,0 +1,11 @@
+{
+  "name": "umm@camera_resizer",
+  "references": [
+    "umm@recttransform_accessor",
+    "umm@unirx"
+  ],
+  "optionalUnityReferences": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false
+}
