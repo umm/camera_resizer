@@ -2,9 +2,9 @@
   "name": "@umm/camera_resizer",
   "version": "1.2.0",
   "description": "Camera resizer calculate from canvas",
-  "homepage": "https://github.com/umm-projects/camera_resizer",
+  "homepage": "https://github.com/umm/camera_resizer",
   "bugs": {
-    "url": "https://github.com/umm-projects/camera_resizer/issues"
+    "url": "https://github.com/umm/camera_resizer/issues"
   },
   "scripts": {
     "umm:init": "umm-init",
@@ -22,16 +22,16 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:umm-projects/camera_resizer"
+    "url": "git@github.com:umm/camera_resizer"
   },
   "files": [
     "Assets",
     "scripts"
   ],
   "dependencies": {
-    "@umm/recttransform_accessor": "umm-projects/recttransform_accessor#^1.0.0",
-    "@umm/scripts": "umm-projects/scripts#^1.0.0",
-    "@umm/unirx": "umm-projects/unirx#^2.0.0"
+    "@umm/recttransform_accessor": "umm/recttransform_accessor#^1.0.0",
+    "@umm/scripts": "umm/scripts#^1.0.0",
+    "@umm/unirx": "umm/unirx#^2.0.0"
   },
   "devDependencies": {}
 }
