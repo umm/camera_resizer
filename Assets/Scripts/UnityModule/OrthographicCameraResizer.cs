@@ -1,4 +1,5 @@
-﻿using AccessorUtility;
+﻿using System.Linq;
+using AccessorUtility;
 using UniRx;
 using UnityEngine;
 using UnityEngine.UI;
@@ -102,7 +103,14 @@ namespace UnityModule
                 .Subscribe(
                     (value) =>
                     {
-                        this.TargetCamera.orthographicSize = value / 2.0f / this.CanvasScaler.referencePixelsPerUnit;
+                        gameObject
+                            .scene
+                            .GetRootGameObjects()
+                            .SelectMany(x => x.GetComponentsInChildren<Camera>())
+                            .ToList()
+                            .ForEach(
+                                x => { x.orthographicSize = value / 2.0f / this.CanvasScaler.referencePixelsPerUnit; }
+                            );
                     }
                 );
         }
